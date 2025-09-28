@@ -1,7 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-CREATE PROCEDURE sp_ReservedTablesReport
+CREATE PROCEDURE AddNewOrder
     @reservationId INT,
     @employeeId INT,
     @orderDate DATETIME,

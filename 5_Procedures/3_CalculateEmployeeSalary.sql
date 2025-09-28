@@ -1,6 +1,9 @@
 USE [RestaurantReservationProject]
 GO
 
+DROP FUNCTION IF EXISTS fn_CalculateEmployeeSalary;
+GO
+
 CREATE FUNCTION fn_CalculateEmployeeSalary (@employeeId INT)
 RETURNS INT
 AS
