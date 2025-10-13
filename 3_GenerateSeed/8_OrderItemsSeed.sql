@@ -1,8 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-DELETE FROM OrderItems;
-DBCC CHECKIDENT ('OrderItems', RESEED, 0);
+TRUNCATE TABLE OrderItems;
 
 INSERT INTO [dbo].[OrderItems]
            ([OrderId]

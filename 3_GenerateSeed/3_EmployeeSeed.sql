@@ -1,8 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-DELETE FROM Employees;
-DBCC CHECKIDENT ('Employees', RESEED, 0);
+TRUNCATE TABLE Employees;
 
 INSERT INTO [dbo].[Employees]
            ([RestaurantId]
