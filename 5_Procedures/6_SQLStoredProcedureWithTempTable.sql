@@ -1,7 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-CREATE PROCEDURE retrieveTablesWithFutureReservations
+CREATE OR ALTER PROCEDURE retrieveTablesWithFutureReservations
     @reservationDate DATETIME
 AS 
 BEGIN

@@ -1,7 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-CREATE PROCEDURE GetAvgOrderAmountByEmployee
+CREATE OR ALTER PROCEDURE GetAvgOrderAmountByEmployee
     @EmployeeId INT
 AS
 BEGIN

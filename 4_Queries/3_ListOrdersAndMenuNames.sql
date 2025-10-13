@@ -1,7 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-CREATE PROCEDURE ListOrderIdAndMenuItemsByReservation
+CREATE OR ALTER PROCEDURE ListOrderIdAndMenuItemsByReservation
     @ReservationId INT
 AS
 BEGIN

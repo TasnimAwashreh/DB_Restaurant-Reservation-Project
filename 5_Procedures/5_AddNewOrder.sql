@@ -1,7 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-CREATE PROCEDURE AddNewOrder
+CREATE OR ALTER PROCEDURE AddNewOrder
     @reservationId INT,
     @employeeId INT,
     @orderDate DATETIME,

@@ -1,7 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-CREATE VIEW ListEmployeeInfoWithRestaurantInfo AS
+CREATE OR ALTER VIEW ListEmployeeInfoWithRestaurantInfo AS
 SELECT [EmployeeId]
       ,[FirstName]
       ,[LastName]

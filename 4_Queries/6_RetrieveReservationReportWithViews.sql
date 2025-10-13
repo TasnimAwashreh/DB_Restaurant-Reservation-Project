@@ -1,7 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-CREATE VIEW ReservationExtendedDetails AS
+CREATE OR ALTER VIEW ReservationExtendedDetails AS
 SELECT [ReservationId]
       ,[TableId]
       ,[ReservationDate]

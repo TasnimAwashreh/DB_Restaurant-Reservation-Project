@@ -1,10 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-DROP FUNCTION IF EXISTS fn_CalculateRevenue;
-GO
-
-CREATE FUNCTION fn_CalculateRevenue (@restaurantId INT)
+CREATE OR ALTER FUNCTION fn_CalculateRevenue (@restaurantId INT)
 RETURNS INT
 AS
 BEGIN

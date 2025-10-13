@@ -1,10 +1,7 @@
 USE [RestaurantReservationProject]
 GO
 
-DROP PROCEDURE IF EXISTS dbo.sp_ReservedTablesReport;
-GO
-
-CREATE PROCEDURE sp_ReservedTablesReport
+CREATE OR ALTER PROCEDURE sp_ReservedTablesReport
     @DateFrom DATETIME,
     @DateTo DATETIME
 AS
